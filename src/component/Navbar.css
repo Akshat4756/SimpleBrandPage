@@ -1,0 +1,31 @@
+.navbar{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding: 0;
+    align-items: center;
+    height: 75px;
+}
+
+.navbar-group{
+    display: flex;
+list-style-type: none;
+
+}
+.navbar-link{
+text-align: center;
+padding: 14px 15px;
+display: block;
+color:#2e2e2e;
+}
+.nav-button{
+    all:unset; /* resetting all the initial style  */
+background-color: red;
+float: right;
+height: 32px;
+font-weight: 500;
+color:white;
+padding: 6px 16px;
+border-style: none;
+}
